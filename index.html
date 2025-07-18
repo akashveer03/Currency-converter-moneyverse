@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currency Converter - Convert USD to INR, EUR to USD</title>
+
+  <!-- 🔑 KEYWORDS -->
+  <meta name="keywords" content="currency converter, USD to INR, INR to USD, money converter, exchange rate, live currency conversion, online currency calculator, forex, dollar rupee converter, euro dollar exchange rate">
+
+  <!-- 🔎 DESCRIPTION -->
+  <meta name="description" content="Free online currency converter tool. Instantly convert USD to INR, EUR to USD, and more. Live exchange rates and stylish UI.">
+
+  <!-- 👑 AUTHOR -->
+  <meta name="author" content="Akash" />
+
+  
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  <div class="container">
+    <h1>Moneyverse</h1>
+    <div class="converter-box">
+      <input type="number" id="amount" placeholder="Enter amount" />
+
+      <div class="dropdowns">
+        <select id="fromCurrency"></select>
+        <span>→</span>
+        <select id="toCurrency"></select>
+      </div>
+
+      <button id="convertBtn">Convert</button>
+
+      <div class="result-box">
+  <p id="result"></p>
+</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
